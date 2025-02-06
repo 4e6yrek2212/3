@@ -4,25 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<body style="background-color: bisque;">
-    <h2 style="color: blue;" align="center">Хищники</h1>
-        <div>
-    <ol>
-        <li style="color: red;">Медвежьи</li>
-        <ul>
-            <li style="color: green;" type="square">Медведи</li>
-            <ul>Бурый медведь, Белый медведь</ul>
-            <li style="color: green;" type="square">Панды</li>
-             <ul>Большая панда, Малая панда</ul>   
-        </ul>
-        <li style="color: red;">Собачьи</li>
-        <ul>
-            <li style="color: green;" type="square">Волки</li>
-            <ul>Шакал, Красный волк</ul>
-            <li style="color: green;" type="square">Лисы</li>
-            <ul>Лиса рыжая, Фенек</ul>
-        </ul>
-    </ol>
+    <style>
+        .container {
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            flex-direction: column;
+            height: 130px;
+        }
+
+        .list {  
+            text-align: center;
+            padding: 0
+        }
+    </style>
+</head>
+<body style="background-color: yellow;">
+    <h2 ALIGN="center"><span style="color: brown;">Список литературы</span></h1>
+    <div class="container">
+        <ol class="list" type="1">
+            <li><span style="color: red;">Л.Н.Толстой</span> "Война и мир"</li>
+            <li><span style="color: red;">Л.Н.Толстой</span> "Анна Каренина"</li>
+        </ol>
+        <ol class="list" type="1">
+            <li><span style="color: green;">А.С.Пушкин</span>"Капитанская дочка"</li>
+            <li><span style="color: green;">А.С.Пушкин</span>"Евгений Онегин"</li>
+            <li><span style="color: green;">А.С.Пушкин</span>"Маленькие Трагедии"</li>
+        </ol>
+        <ol class="list" type="1">
+            <li><span style="color: blue;">М.Ю.Лермонтов</span> "Мцыри"</li>
+        </ol>
     </div>
 </body>
 </html>
